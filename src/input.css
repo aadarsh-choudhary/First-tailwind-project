@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+@theme {
+  --animate-ticker: scroll 16s linear infinite;
+
+  @keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+}
